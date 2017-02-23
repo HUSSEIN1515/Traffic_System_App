@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Log In</string>
+    <string name="prompt_email">Phone</string>
+    <string name="prompt_password">Password</string>
+    <string name="login_btn_label">LogIn</string>
+    <string name="next_btn_label">Next</string>
+    <string name="signup">new user? sign up</string>
+    <string name="digits">enter 6 digits</string>
+    <string name="resend">Resend SMS</string>
+    <string name="password_txt">Add Your Password</string>
+    <string name="password_add">Password</string>
+    <string name="password_confirm">Confirm Password</string>
+    <string name="signup_label">Verify Your Phone Number</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="country_names">
+        <item>Egypt</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+</resources>

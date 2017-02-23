@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_verify"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.test.loginapp.VerifyActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textColor"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginTop="35dp"
+        android:textStyle="bold"
+        android:id="@+id/verify_txt"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/verification_code"
+            android:inputType="number"
+            android:textSize="18dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textAlignment="center"
+            android:hint="- - -  - - -"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/digits"
+            android:textColor="@color/textColor"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_below="@+id/verification_code"
+            android:id="@+id/tx2"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/resend"
+            android:textColor="@color/textColor"
+            android:textSize="18dp"
+            android:drawableLeft="@drawable/ic_action_name"
+            android:drawablePadding="5dp"
+            android:layout_marginTop="50dp"
+            android:layout_below="@+id/tx2"
+
+            />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/next_btn_label"
+            android:textStyle="bold"
+            android:layout_marginTop="35dp"
+            android:id="@+id/verify_button"
+            android:background="@drawable/button_selecter"
+            android:textColor="@color/textColor"
+            android:layout_marginLeft="75dp"
+            android:layout_marginRight="75dp"
+            android:layout_alignParentBottom="true"
+            />
+    </RelativeLayout>
+
+</LinearLayout>
